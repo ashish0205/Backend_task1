@@ -31,7 +31,7 @@ const tweet = async (req, res, next) => {
           } else {
             res.json({
               status: 201,
-              message: "User Registered Successfully",
+              message: "Tweet done Successfully",
             });
           }
         }

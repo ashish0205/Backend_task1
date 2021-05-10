@@ -13,7 +13,7 @@ const getChat = require("../model/getChat");
 const router = require("express").Router();
 
 router.post(
-  "/signUp",
+  "/Signup",
   [
     check("email", "Please enter a valid email")
       .not()
